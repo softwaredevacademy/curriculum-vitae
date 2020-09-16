@@ -1,12 +1,12 @@
-.section ul {
+.content ul {
   padding-left: 16px;
 }
-.section li {
+.content li {
   list-style-type: square;
 }
 
 @media (min-width: 520px) {
-  .section .grid {
+  .content .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px;

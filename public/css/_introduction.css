@@ -1,38 +1,43 @@
-.header p {
+.introduction p {
   max-width: 640px;
   font-size: 18px;
   margin-bottom: 24px;
 }
-.personal-info {
+
+.introduction .personal-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 24px;
   text-align: center;
 }
-.personal-info .picture {
+
+.introduction .avatar {
   width: 120px;
   height: 120px;
   border-radius: 500px;
   border: solid 6px black;
   margin-bottom: 24px;
 }
-.personal-info .subtitle {
+
+.introduction .subtitle {
   font-size: 24px;
   margin-bottom: 24px;
   font-weight: 600;
 }
 
 @media (min-width: 520px) {
-  .personal-info {
+  .introduction .personal-info {
     margin-bottom: 0;
     flex-direction: row;
     text-align: left;
   }
-  .personal-info .picture {
+
+  .introduction .avatar {
     margin-right: 24px;
   }
-  .personal-info .data {
+
+  .introduction .data {
     display: flex;
     text-align: left;
     justify-content: center;
