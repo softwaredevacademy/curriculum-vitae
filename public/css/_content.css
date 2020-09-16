@@ -1,5 +1,5 @@
 .content ul {
-  padding-left: 16px;
+  padding-left: var(--space-medium);
 }
 .content li {
   list-style-type: square;
@@ -9,13 +9,13 @@
   .content .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 16px;
+    grid-column-gap: var(--space-medium);
   }
 }
 
 @media (min-width: 750px) {
   .content .grid {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 24px;
+    grid-column-gap: var(--space-big);
   }
 }
