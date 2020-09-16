@@ -1,0 +1,26 @@
+.contact-list {
+  padding-left: 0;
+}
+.contact-list li {
+  list-style-type: none;
+}
+.contact-list a {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  background-color: black;
+  color: white;
+  border: solid 4px white;
+}
+
+.contact-list i {
+  margin-right: 8px;
+}
+
+.contact-list a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: solid 4px black;
+}
