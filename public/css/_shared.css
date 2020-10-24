@@ -29,7 +29,7 @@ hr {
   margin-bottom: var(--space-big);
 }
 
-.wrapper {
+body {
   font-family: "Gothic A1", sans-serif;
   box-sizing: border-box;
   max-width: 1024px;
